@@ -1,0 +1,590 @@
+<div class="choices__list" dir="ltr" role="listbox">
+	<div class="choices__item choices__item--choice choices__item--selectable is-highlighted" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="2" data-value="2" data-placeholder="false" role="option" aria-selected="true">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/al.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Albania
+      </span>
+      <span class="c-bw-6">· 9 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="3" data-value="10" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/ar.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Argentina
+      </span>
+      <span class="c-bw-6">· 21 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="4" data-value="13" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/au.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Australia
+      </span>
+      <span class="c-bw-6">· 260 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="5" data-value="14" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/at.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Austria
+      </span>
+      <span class="c-bw-6">· 39 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="6" data-value="21" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/be.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Belgio
+      </span>
+      <span class="c-bw-6">· 88 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="7" data-value="27" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/ba.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Bosnia ed Erzegovina
+      </span>
+      <span class="c-bw-6">· 4 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="8" data-value="30" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/br.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Brasile
+      </span>
+      <span class="c-bw-6">· 31 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="9" data-value="33" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/bg.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Bulgaria
+      </span>
+      <span class="c-bw-6">· 25 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="10" data-value="38" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/ca.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Canada
+      </span>
+      <span class="c-bw-6">· 403 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="11" data-value="43" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/cl.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Cile
+      </span>
+      <span class="c-bw-6">· 12 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="12" data-value="52" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/cr.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Costa Rica
+      </span>
+      <span class="c-bw-6">· 12 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="13" data-value="54" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/hr.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Croazia
+      </span>
+      <span class="c-bw-6">· 6 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="14" data-value="56" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/cy.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Cipro
+      </span>
+      <span class="c-bw-6">· 7 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="15" data-value="57" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/cz.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Repubblica Ceca
+      </span>
+      <span class="c-bw-6">· 58 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="16" data-value="58" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/dk.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Danimarca
+      </span>
+      <span class="c-bw-6">· 79 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="17" data-value="68" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/ee.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Estonia
+      </span>
+      <span class="c-bw-6">· 11 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="18" data-value="73" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/fi.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Finlandia
+      </span>
+      <span class="c-bw-6">· 40 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="19" data-value="74" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/fr.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Francia
+      </span>
+      <span class="c-bw-6">· 231 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="20" data-value="80" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/ge.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Georgia
+      </span>
+      <span class="c-bw-6">· 4 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="21" data-value="81" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/de.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Germania
+      </span>
+      <span class="c-bw-6">· 291 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="22" data-value="84" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/gr.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Grecia
+      </span>
+      <span class="c-bw-6">· 9 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="23" data-value="97" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/hk.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Hong Kong
+      </span>
+      <span class="c-bw-6">· 76 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="24" data-value="98" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/hu.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Ungheria
+      </span>
+      <span class="c-bw-6">· 24 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="25" data-value="99" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/is.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Islanda
+      </span>
+      <span class="c-bw-6">· 13 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="26" data-value="100" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/in.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        India
+      </span>
+      <span class="c-bw-6">· 27 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="27" data-value="101" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/id.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Indonesia
+      </span>
+      <span class="c-bw-6">· 10 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="28" data-value="104" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/ie.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Irlanda
+      </span>
+      <span class="c-bw-6">· 60 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="29" data-value="105" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/il.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Israele
+      </span>
+      <span class="c-bw-6">· 18 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="30" data-value="106" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/it.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Italia
+      </span>
+      <span class="c-bw-6">· 50 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="31" data-value="108" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/jp.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Giappone
+      </span>
+      <span class="c-bw-6">· 78 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="32" data-value="119" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/lv.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Lettonia
+      </span>
+      <span class="c-bw-6">· 22 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="33" data-value="126" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/lu.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Lussemburgo
+      </span>
+      <span class="c-bw-6">· 17 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="34" data-value="131" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/my.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Malesia
+      </span>
+      <span class="c-bw-6">· 7 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="35" data-value="140" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/mx.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Messico
+      </span>
+      <span class="c-bw-6">· 14 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="36" data-value="142" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/md.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Moldavia
+      </span>
+      <span class="c-bw-6">· 7 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="37" data-value="153" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/nl.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Paesi Bassi
+      </span>
+      <span class="c-bw-6">· 277 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="38" data-value="156" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/nz.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Nuova Zelanda
+      </span>
+      <span class="c-bw-6">· 40 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="39" data-value="128" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/mk.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Macedonia del Nord
+      </span>
+      <span class="c-bw-6">· 2 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="40" data-value="163" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/no.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Norvegia
+      </span>
+      <span class="c-bw-6">· 69 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="41" data-value="174" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/pl.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Polonia
+      </span>
+      <span class="c-bw-6">· 69 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="42" data-value="175" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/pt.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Portogallo
+      </span>
+      <span class="c-bw-6">· 20 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="43" data-value="179" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/ro.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Romania
+      </span>
+      <span class="c-bw-6">· 27 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="44" data-value="192" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/rs.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Serbia
+      </span>
+      <span class="c-bw-6">· 40 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="45" data-value="195" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/sg.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Singapore
+      </span>
+      <span class="c-bw-6">· 187 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="46" data-value="196" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/sk.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Slovacchia
+      </span>
+      <span class="c-bw-6">· 28 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="47" data-value="197" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/si.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Slovenia
+      </span>
+      <span class="c-bw-6">· 4 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="48" data-value="200" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/za.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Sud Africa
+      </span>
+      <span class="c-bw-6">· 38 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="49" data-value="114" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/kr.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Corea del Sud
+      </span>
+      <span class="c-bw-6">· 10 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="50" data-value="202" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/es.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Spagna
+      </span>
+      <span class="c-bw-6">· 42 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="51" data-value="208" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/se.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Svezia
+      </span>
+      <span class="c-bw-6">· 188 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="52" data-value="209" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/ch.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Svizzera
+      </span>
+      <span class="c-bw-6">· 128 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="53" data-value="211" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/tw.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Taiwan
+      </span>
+      <span class="c-bw-6">· 16 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="54" data-value="214" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/th.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Thailandia
+      </span>
+      <span class="c-bw-6">· 7 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="55" data-value="220" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/tr.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Turchia
+      </span>
+      <span class="c-bw-6">· 15 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="56" data-value="225" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/ua.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Ucraina
+      </span>
+      <span class="c-bw-6">· 10 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="57" data-value="226" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/ae.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Emirati Arabi Uniti
+      </span>
+      <span class="c-bw-6">· 20 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="58" data-value="227" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/gb.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Regno Unito
+      </span>
+      <span class="c-bw-6">· 608 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="59" data-value="228" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/us.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Stati Uniti
+      </span>
+      <span class="c-bw-6">· 1655 servers</span>
+    </div><div class="choices__item
+      choices__item--choice
+      choices__item--selectable" data-select-text="Press to select" data-choice="" data-choice-selectable="" data-id="60" data-value="234" data-placeholder="false" role="option">
+      <span>
+        <img src="https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/vn.svg" onerror="this.src='https://s1.nordcdn.com/nordvpn/media/1.200.0/images/global/flags/16x12/placeholder.svg'" role="presentation">
+      </span>
+      <span class="choices__main">
+        Vietnam
+      </span>
+      <span class="c-bw-6">· 10 servers</span>
+    </div></div>
