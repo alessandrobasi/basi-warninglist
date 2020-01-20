@@ -15,16 +15,11 @@ ips_json = ["https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B
 dir_name = os.path.basename(os.path.dirname(os.path.realpath(__file__)))
 save_path = "../../lists/"+dir_name+"/"
 
-def cidr(ip):
-    return [str(ip) for ip in IPv4Network(ip)]
-
 def main():
 
     ips = list()
     ipv4CIDR = list()
     ipv6CIDR = list()
-
-    ipv4 = list()
     
     for url in ips_json:
         headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'}
@@ -48,16 +43,9 @@ def main():
             ipv4CIDR.append(ip)
         else:
             ipv6CIDR.append(ip)
-    
-    for ipv in ipv4CIDR:
-        ipv4.extend( cidr(ipv) )
 
     with open(save_path+"ipv4CIDR.txt","w", encoding="UTF-8") as f:
         for ip in ipv4CIDR:
-            f.write(ip+"\n")
-
-    with open(save_path+"ipv4.txt","w", encoding="UTF-8") as f:
-        for ip in ipv4:
             f.write(ip+"\n")
     
     with open(save_path+"ipv6CIDR.txt","w", encoding="UTF-8") as f:
