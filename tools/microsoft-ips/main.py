@@ -5,6 +5,8 @@ from requests import get
 import os
 import csv
 
+#https://www.microsoft.com/en-us/download/details.aspx?id=41653
+
 ips_csv = ["https://download.microsoft.com/download/B/2/A/B2AB28E1-DAE1-44E8-A867-4987FE089EBE/msft-public-ips.csv"]
 
 ips_json = ["https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20200112.json",
@@ -33,10 +35,14 @@ def main():
         headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'}
         r = get(url=url, headers=headers)
         testo = r.text.split('\n')
-        csv_reader = csv.reader(testo)
+
+        for ip in testo[1:]:
+            ips.append(ip.split(",")[0])
+
+        '''csv_reader = csv.reader(testo)
         csv_reader = list(csv_reader)
         for i in range(0,len(csv_reader)-1):
-            ips.append(csv_reader[i][0])
+            ips.append(csv_reader[i][0])'''
 
     for ip in ips:
         if '.' in ip:
@@ -50,6 +56,10 @@ def main():
     
     with open(save_path+"ipv6CIDR.txt","w", encoding="UTF-8") as f:
         for ip in ipv6CIDR:
+            f.write(ip+"\n")
+    
+    with open(save_path+"all.txt","w", encoding="UTF-8") as f:
+        for ip in ips:
             f.write(ip+"\n")
 
 

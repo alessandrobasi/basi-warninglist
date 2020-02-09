@@ -3,7 +3,12 @@ import re
 import requests
 import json
 import time
+import os
 from random import randrange
+
+dir_name = os.path.basename(os.path.dirname(os.path.realpath(__file__)))
+save_path = "../../lists/"+dir_name+"/"
+
 
 def getNewIds():
     with open("html.txt", "r", encoding="UTF-8") as f:
@@ -20,7 +25,7 @@ def getNewIds():
 def main():
 
     ip = set()
-    with open("ipnord.txt","r",encoding="UTF-8") as f:
+    with open(save_path+"all.txt","r",encoding="UTF-8") as f:
         for line in f:
             ip.add(line[:-1])
 
@@ -43,12 +48,12 @@ def main():
         for i in range(len(data)):
             ip.add(data[i]["station"])
 
-
-    with open("ipnord.txt","w",encoding="UTF-8") as f:
+    with open(save_path+"all.txt","w",encoding="UTF-8") as f:
         for i in ip:
             f.write(i+"\n")
-    print("ip trovati unici:",len(ip))
+    
+    return "ip trovati unici: "+str(len(ip))
         
 
 if __name__ == "__main__":
-    main()
+    print(main())

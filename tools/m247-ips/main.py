@@ -16,8 +16,6 @@ def main():
     ipv4CIDR = list()
     ipv6CIDR = list()
 
-    ipv4 = list()
-
     for asn in AS:
         url = 'https://stat.ripe.net/data/maxmind-geo-lite-announced-by-as/data.json'
         PARAMS = {"resource": asn}
@@ -35,20 +33,17 @@ def main():
             ipv4CIDR.append(ip)
         else:
             ipv6CIDR.append(ip)
-    
-    for ipv in ipv4CIDR:
-        ipv4.extend( cidr(ipv) )
 
     with open(save_path+"ipv4CIDR.txt","w", encoding="UTF-8") as f:
         for ip in ipv4CIDR:
             f.write(ip+"\n")
-
-    with open(save_path+"ipv4.txt","w", encoding="UTF-8") as f:
-        for ip in ipv4:
-            f.write(ip+"\n")
     
     with open(save_path+"ipv6CIDR.txt","w", encoding="UTF-8") as f:
         for ip in ipv6CIDR:
+            f.write(ip+"\n")
+    
+    with open(save_path+"all.txt","w", encoding="UTF-8") as f:
+        for ip in ips:
             f.write(ip+"\n")
 
 

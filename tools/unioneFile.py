@@ -1,24 +1,25 @@
+import os
+from os import getcwd, listdir
+
+dir_name = os.path.basename(os.path.dirname(os.path.realpath(__file__)))
+
+path = "../lists/"
+dir_presenti = [path+file for file in listdir(path) if "list.txt" not in file]
+file_presenti = list([cartella+"/"+file for cartella in dir_presenti for file in listdir(cartella) ])
 
 def main():
 
-    ip = set()
+    ips = set()
 
-    with open("ipv4list.txt", "r", encoding="UTF-8") as f:
-        for line in f:
-            ip.add(line[:-1])
-    with open("lista.txt", "r", encoding="UTF-8") as f:
-        for line in f:
-            ip.add(line[:-1])
-    with open("proxy.csv","r",encoding="UTF-8") as f:
-        for line in f:
-            ip.add(line[:-1])
-    with open("digitalocean.txt","r",encoding="UTF-8") as f:
-        for line in f:
-            ip.add(line[:-1])
+    for file in file_presenti:
+        with open(file, "r", encoding="UTF-8") as f:
+            for line in f:
+                ips.add(line[:-1])
     
-    with open("proxy.csv", "w",encoding="UTF-8") as f:
-        for line in ip:
-            f.write(line+"\n")
+    with open(path+"list.txt", "w",encoding="UTF-8") as f:
+        for ip in ips:
+            f.write(ip+"\n")
+    
 
 if __name__ == "__main__":
     main()
