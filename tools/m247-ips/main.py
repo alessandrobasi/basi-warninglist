@@ -12,21 +12,19 @@ def cidr(ip):
 
 def main():
     
-    ips = list()
+    ips = set()
     ipv4CIDR = list()
     ipv6CIDR = list()
 
     for asn in AS:
         url = 'https://stat.ripe.net/data/maxmind-geo-lite-announced-by-as/data.json'
         PARAMS = {"resource": asn}
-        headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'}
 
-        r = get(url=url, params=PARAMS, headers=headers)
+        r = get(url=url, params=PARAMS)
         file = r.json()
 
-        for i in range(len(file['data']['located_resources'])):
-            for j in range(len(file['data']['located_resources'][i]['locations'])):
-                ips.extend( file['data']['located_resources'][i]['locations'][j]['resources'])
+        for obj in file['data']['located_resources']:
+            ips.add(obj["resource"])
     
     for ip in ips:
         if '.' in ip:
