@@ -1,4 +1,5 @@
 import os
+
 # https://bgp.he.net/search?search%5Bsearch%5D=digitalocean&commit=Search
 dir_name = os.path.basename(os.path.dirname(os.path.realpath(__file__)))
 save_path = "../../lists/"+dir_name+"/"
@@ -30,8 +31,6 @@ def main():
     with open(save_path+"all.txt","w", encoding="UTF-8") as f:
         for ip in ips:
             f.write(ip+"\n")
-
-
 
 
 if __name__ == "__main__":
