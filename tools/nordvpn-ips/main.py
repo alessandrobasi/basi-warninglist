@@ -24,7 +24,7 @@ def getIds(test_str):
 
 def updateIds():
 
-    driver = webdriver.Firefox(executable_path=r'C:\\Program Files\\Mozilla Firefox\\geckodriver.exe')
+    driver = webdriver.Firefox(executable_path='C:\\Program Files\\Mozilla Firefox\\geckodriver.exe')
     driver.minimize_window()
     wait = WebDriverWait(driver,4)
 
@@ -59,7 +59,10 @@ def main():
         print("scaricando",num)
         PARAMS = {'action': "servers_recommendations", "filters": '{"country_id": '+ num +'}'}
         r = requests.get(url =url_, params = PARAMS, headers=headers)
-        data = r.json()
+        try:
+            data = r.json()
+        except:
+            continue
 
         for i in range(len(data)):
             ip.add(data[i]["station"])
