@@ -5,7 +5,7 @@ dir_name = os.path.basename(os.path.dirname(os.path.realpath(__file__)))
 
 path = "../lists/"
 dir_presenti = [path+file for file in listdir(path) if "list.txt" not in file]
-file_presenti = list([cartella+"/"+file for cartella in dir_presenti for file in listdir(cartella) ])
+file_presenti = [cartella+"/"+file for cartella in dir_presenti for file in listdir(cartella) ]
 
 def main():
 
