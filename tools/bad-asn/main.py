@@ -3,7 +3,8 @@ from ipaddress import IPv4Network
 from requests import get
 import os
 
-AS = ["AS57858","AS25369","AS3223","AS62240","AS205119","AS49367"]
+AS = ["AS57858","AS25369","AS3223","AS62240","AS205119","AS49367","AS174",
+"AS197706"]
 dir_name = os.path.basename(os.path.dirname(os.path.realpath(__file__)))
 save_path = "../../lists/"+dir_name+"/"
 
