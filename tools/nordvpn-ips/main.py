@@ -42,10 +42,10 @@ save_path = "../../lists/"+dir_name+"/"
 
 def main():
 
-    ip = set()
+    ips = set()
     with open(save_path+"all.txt","r",encoding="UTF-8") as f:
         for line in f:
-            ip.add(line[:-1])
+            ips.add(line[:-1])
 
     ids = updateIds()
 
@@ -65,13 +65,17 @@ def main():
             continue
 
         for i in range(len(data)):
-            ip.add(data[i]["station"])
+            ips.add(data[i]["station"])
 
-    with open(save_path+"all.txt","w",encoding="UTF-8") as f:
-        for i in ip:
-            f.write(i+"\n")
+    with open(save_path+"ipv4CIDR.txt","w", encoding="UTF-8") as ipv4F, open(save_path+"ipv6CIDR.txt","w", encoding="UTF-8") as ipv6F, open(save_path+"all.txt","w", encoding="UTF-8") as allF:
+        for ip in ips:
+            allF.write(ip+"\n")
+            if '.' in ip:
+                ipv4F.write(ip+"\n")
+            else:
+                ipv6F.write(ip+"\n")
     
-    return "ip trovati unici: "+str(len(ip))
+    return "ip trovati unici: "+str(len(ips))
         
 
 if __name__ == "__main__":

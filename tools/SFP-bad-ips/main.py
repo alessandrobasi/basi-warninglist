@@ -3,15 +3,13 @@ import os
 from requests.api import get
 from shutil import copyfileobj
 from zipfile import ZipFile
-from os import listdir, remove
+from os import remove
 
 dir_name = os.path.basename(os.path.dirname(os.path.realpath(__file__)))
 save_path = "../../lists/"+dir_name+"/"
 
 def main():
     ips = set()
-    ipv4 = list()
-    ipv6 = list()
 
     url_sfs_30d = "https://www.stopforumspam.com/downloads/listed_ip_30_ipv46.zip"
     
@@ -43,23 +41,13 @@ def main():
     # Remove new IP list
     remove(lista_nomi_file)
 
-    for ip in ips:
-        if '.' in ip:
-            ipv4.append(ip)
-        else:
-            ipv6.append(ip)
-
-    with open(save_path+"ipv4.txt","w", encoding="UTF-8") as f:
-        for ip in ipv4:
-            f.write(ip+"\n")
-    
-    with open(save_path+"ipv6.txt","w", encoding="UTF-8") as f:
-        for ip in ipv6:
-            f.write(ip+"\n")
-    
-    with open(save_path+"all.txt","w", encoding="UTF-8") as f:
+    with open(save_path+"ipv4CIDR.txt","w", encoding="UTF-8") as ipv4F, open(save_path+"ipv6CIDR.txt","w", encoding="UTF-8") as ipv6F, open(save_path+"all.txt","w", encoding="UTF-8") as allF:
         for ip in ips:
-            f.write(ip+"\n")
+            allF.write(ip+"\n")
+            if '.' in ip:
+                ipv4F.write(ip+"\n")
+            else:
+                ipv6F.write(ip+"\n")
 
 
 if __name__ == "__main__":

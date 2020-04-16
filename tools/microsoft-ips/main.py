@@ -1,9 +1,6 @@
 
-import json
-from ipaddress import IPv4Network
 from requests import get
 import os
-import csv
 
 #https://www.microsoft.com/en-us/download/details.aspx?id=41653
 
@@ -20,8 +17,6 @@ save_path = "../../lists/"+dir_name+"/"
 def main():
 
     ips = list()
-    ipv4CIDR = list()
-    ipv6CIDR = list()
     
     for url in ips_json:
         headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'}
@@ -39,28 +34,13 @@ def main():
         for ip in testo[1:]:
             ips.append(ip.split(",")[0])
 
-        '''csv_reader = csv.reader(testo)
-        csv_reader = list(csv_reader)
-        for i in range(0,len(csv_reader)-1):
-            ips.append(csv_reader[i][0])'''
-
-    for ip in ips:
-        if '.' in ip:
-            ipv4CIDR.append(ip)
-        else:
-            ipv6CIDR.append(ip)
-
-    with open(save_path+"ipv4CIDR.txt","w", encoding="UTF-8") as f:
-        for ip in ipv4CIDR:
-            f.write(ip+"\n")
-    
-    with open(save_path+"ipv6CIDR.txt","w", encoding="UTF-8") as f:
-        for ip in ipv6CIDR:
-            f.write(ip+"\n")
-    
-    with open(save_path+"all.txt","w", encoding="UTF-8") as f:
+    with open(save_path+"ipv4CIDR.txt","w", encoding="UTF-8") as ipv4F, open(save_path+"ipv6CIDR.txt","w", encoding="UTF-8") as ipv6F, open(save_path+"all.txt","w", encoding="UTF-8") as allF:
         for ip in ips:
-            f.write(ip+"\n")
+            allF.write(ip+"\n")
+            if '.' in ip:
+                ipv4F.write(ip+"\n")
+            else:
+                ipv6F.write(ip+"\n")
 
 
 
