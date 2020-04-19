@@ -1,16 +1,44 @@
 import os
+from requests import get
 
 # https://bgp.he.net/search?search%5Bsearch%5D=digitalocean&commit=Search
 dir_name = os.path.basename(os.path.dirname(os.path.realpath(__file__)))
 save_path = "../../lists/"+dir_name+"/"
 
+def getasn():
+    
+    AS = []
+
+    url = 'https://stat.ripe.net/data/searchcomplete/data.json'
+    PARAMS = {"resource": "DIGITALOCEAN"}
+
+    r = get(url=url, params=PARAMS)
+    assert r.status_code == 200, "Network Error"
+    file = r.json()
+
+    for category in file['data']['categories']:
+        if category['category'] == "ASNs":
+            for obj in category["suggestions"]:
+                AS.append(obj['value'])
+    
+    return AS
+
 def main():
     
-    ips = list()
+    AS = getasn()
 
-    with open("digital.txt","r",encoding="UTF-8") as f:
-        for line in f:
-            ips.append(line.split("\t")[0])
+    ips = set()
+
+    for asn in AS:
+        url = 'https://stat.ripe.net/data/maxmind-geo-lite-announced-by-as/data.json'
+        PARAMS = {"resource": asn}
+
+        r = get(url=url, params=PARAMS)
+        assert r.status_code == 200, "Network Error"
+        file = r.json()
+
+        for obj in file['data']['located_resources']:
+            ips.add(obj["resource"])
     
     with open(save_path+"ipv4CIDR.txt","w", encoding="UTF-8") as ipv4F, open(save_path+"ipv6CIDR.txt","w", encoding="UTF-8") as ipv6F, open(save_path+"all.txt","w", encoding="UTF-8") as allF:
         for ip in ips:

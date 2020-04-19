@@ -16,7 +16,7 @@ def main():
             for line in f:
                 ips.add(line[:-1])
     
-    with open(path+"list.txt", "w",encoding="UTF-8") as f:
+    with open(path+"list.txt", "w", encoding="UTF-8") as f:
         for ip in ips:
             f.write(ip+"\n")
     
