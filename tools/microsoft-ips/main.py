@@ -47,4 +47,6 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    print("Microsoft ips *broken*")
+    #main()
+    pass

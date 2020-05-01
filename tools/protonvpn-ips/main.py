@@ -30,8 +30,9 @@ def main():
             else:
                 ipv6F.write(ip+"\n")
     
-    return "ip trovati unici: "+str(len(ips))
+    return str(len(ips))
         
 
 if __name__ == "__main__":
-    print(main())
+    print("ProtonVPN ips")
+    main()

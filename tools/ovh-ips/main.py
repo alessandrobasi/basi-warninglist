@@ -7,9 +7,6 @@ AS = ["AS16276"]
 dir_name = os.path.basename(os.path.dirname(os.path.realpath(__file__)))
 save_path = "../../lists/"+dir_name+"/"
 
-def cidr(ip):
-    return [str(ip) for ip in IPv4Network(ip)]
-
 def main():
     
     ips = set()
@@ -34,4 +31,5 @@ def main():
 
 
 if __name__ == "__main__":
+    print("OVH ips")
     main()

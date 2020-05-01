@@ -8,7 +8,7 @@ save_path = "../../lists/"+dir_name+"/"
 def getasn():
     
     AS = []
-
+    
     url = 'https://stat.ripe.net/data/searchcomplete/data.json'
     PARAMS = {"resource": "DIGITALOCEAN"}
 
@@ -50,4 +50,5 @@ def main():
 
 
 if __name__ == "__main__":
+    print("DigitalOcean ips")
     main()

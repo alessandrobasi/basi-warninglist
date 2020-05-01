@@ -53,10 +53,8 @@ def main():
     headers = {'user-agent': 'Mozilla/5.0 (X11; CrOS x86_64 8172.45.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.64 Safari/537.36'}
 
     for num in ids:
-        attesa = randrange(10,60,1)
-        print("attesa di",attesa)
+        attesa = randrange(10,15,1)
         time.sleep(attesa)
-        print("scaricando",num)
         PARAMS = {'action': "servers_recommendations", "filters": '{"country_id": '+ num +'}'}
         r = requests.get(url =url_, params = PARAMS, headers=headers)
         try:
@@ -75,8 +73,9 @@ def main():
             else:
                 ipv6F.write(ip+"\n")
     
-    return "ip trovati unici: "+str(len(ips))
+    return str(len(ips))
         
 
 if __name__ == "__main__":
-    print(main())
+    print("NordVPN ips")
+    main()
