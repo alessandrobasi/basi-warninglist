@@ -3,7 +3,7 @@ import os
 
 AS = ["AS57858", "AS25369", "AS3223", "AS62240", "AS205119", "AS49367", "AS174",
       "AS197706", "AS51167", "AS49453", "AS60068", "AS36351", "AS5432", "AS49367",
-      "AS32489", "AS396356"]
+      "AS32489", "AS396356", "AS43350"]
 
 dir_name = os.path.basename(os.path.dirname(os.path.realpath(__file__)))
 save_path = "../../lists/"+dir_name+"/"
